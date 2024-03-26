@@ -1,0 +1,300 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    width: 100%;
+    height: 100%;
+   
+}
+
+
+
+
+ header{
+    background-color: rgb(7, 7, 104);
+    overflow: hidden;
+    position:sticky;
+    top: 0;
+ }
+.navContainer{
+   height: 15vh;
+  width: 80%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 auto;
+   font-family: "Merriweather", serif;
+   overflow: hidden;
+  
+
+
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    margin-right: 30px;
+    color: white;
+    font-size: 1.5rem;
+}
+
+ul  a{
+    text-decoration: none;
+    
+}
+
+.mytunes{
+    color: white;
+    font-size: 2rem;
+}
+
+.heroContainer{
+ min-height: 100vh;
+ background-image: url(hero_image\ \(1\).png);
+ background-size: 100vw 100vh;
+ background-repeat: no-repeat;
+ overflow: hidden;
+
+
+}
+
+.heroDesc{
+   position: relative;
+   top: 220px;
+   left: 150px;
+   color: white;
+   width: 85%;
+   font-family: "Merriweather", serif;
+
+
+}
+
+.heroDesc .heading{
+
+  font-size: 4rem;
+ 
+  margin-left: 270px;
+}
+
+.heroDesc .para1{
+   font-size: 1.9rem;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: 150px;
+   font-weight: bolder;
+
+}
+.heroDesc .para3{
+   font-size: 1rem;
+   /* margin-top: 20px;
+   margin-bottom: 20px; */
+   margin-left: 200px;
+   color: rgb(175, 168, 168);
+  
+
+}
+
+.musicContainer{
+
+  height: 90vh;
+  background-color: rgb(6, 6, 64);
+  text-align: center;
+  /* font-family: "Merriweather", serif; */
+
+}
+
+.musicSection {
+    display: flex;
+    justify-content: center;
+}
+
+.musiclogo img{
+    width: 30px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.music{
+    font-size: 1.8rem;
+    color: white;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.descSection{
+ 
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    width: 90%;
+    margin-top: 20px;
+    color: white;
+
+
+}
+
+.descSection .desc1{
+    margin-left: 150px;
+}
+
+.descSection .desc2{
+  
+    width: 140px;
+    margin-left: 52%;
+    margin-top: 23px;
+    padding: 5px;
+    background-color: red;
+    /* top: 20px; */
+
+
+}
+
+.descSection .desc3{
+    margin-top: 20px;
+    margin-left: 14%;
+}
+
+.descSection img{
+
+    margin-top: 30px;
+    margin-left: 130px;
+}
+
+.descConatiner{
+  width: 80%;
+  margin-top: 35%;
+  
+
+}
+
+.descConatiner .first{
+    margin-left: 30%;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+.descConatiner .second{
+    margin-left: 20%;
+    font-size: 1.2rem;
+    font-weight: 900;
+    margin-top: 25px;
+}
+.descConatiner .third{
+    margin-left: 40%;
+    font-size: 1.2rem;
+    font-weight: 900;
+   ;
+}
+.descConatiner .fourth{
+    margin-left: 60%;
+    font-size: 1.2rem;
+    font-weight: 900;
+    width: 95px;
+    background-color: rgb(3, 3, 111);
+    margin-top: 20px;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.videoContainer video{
+    margin-top: 20px;
+}
+
+.cardContainer{
+
+    display: flex;
+    /* margin-top: 150px; */
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 50px auto;
+
+
+}
+.cardContainer img{
+
+   width: 200px;
+
+
+}
+.cardContainer h1{
+
+   font-size: 1.5rem;
+   margin-bottom: 10px;
+
+
+}
+.cardContainer .desc{
+
+   margin-left: 30px;
+
+
+}
+.cardContainer .lastpara{
+
+    margin-top: 20px;
+    width: 55px;
+    padding: 5px;
+    background-color: rgb(9, 9, 119);
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+
+
+}
+
+
+.cardContainer .firstpara{
+
+   box-shadow: 0px 5px  rgb(168, 158, 158);
+
+}
+
+.descConatiner img{
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+.footer{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    background-color: rgb(4, 4, 81);
+    color: white;
+}
+
+.footerDesc{
+   
+    margin-top: 50px;
+}
+
+.footerDesc input{
+    margin-top: 10px;
+    padding: 3px ;
+}
+.footerDesc .ParaFirst{
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+.footerDesc img{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+
